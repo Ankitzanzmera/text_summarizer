@@ -8,6 +8,7 @@ __pycache__/
 
 # Personal
 logs/*
+artifacts/*
 
 # Distribution / packaging
 .Python
