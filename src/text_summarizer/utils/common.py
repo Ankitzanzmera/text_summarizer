@@ -19,10 +19,7 @@ def read_yaml(filepath:Path) -> ConfigBox:
     except Exception as e:
         raise CustomException(e,sys)
 
-@ensure_annotations
-def create_directories(path_to_directory:list) -> None:
+def create_directories(path_to_directory: list) -> None:
     for path in path_to_directory:
         os.makedirs(path,exist_ok=True)
         logger.info(f"{path} Directory Created Successfully")
-
-

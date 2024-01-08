@@ -20,5 +20,6 @@ ensure
 fastapi
 uvicorn
 Jinja2
+gdown
 -e .
 
