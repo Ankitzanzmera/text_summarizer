@@ -13,4 +13,4 @@ class DataValidationConfig:
     root_dir: Path
     data_validation_status_file: str
     data_validation_required_file: list
-    unzip_dir:Path
+    data_path:Path

@@ -10,7 +10,7 @@ class DataValidation:
     def is_valid(self):
         validation_status = None
         all_required_files = self.config.data_validation_required_file
-        file_that_exists = os.listdir(self.config.unzip_dir)
+        file_that_exists = os.listdir(self.config.data_path)
         try:
             for file in all_required_files:
                 if file not in file_that_exists:

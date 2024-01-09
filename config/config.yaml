@@ -11,3 +11,7 @@ data_validation:
   data_validation_status_file: artifacts/data_validation/status.txt
   data_validation_required_file: ["validation","train","test","dataset_dict.json"]
   unzip_dir: artifacts/data_ingestion/samsum_dataset/
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  
