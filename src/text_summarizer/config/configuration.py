@@ -29,7 +29,7 @@ class ConfigurationManager:
             root_dir= Path(temp_config.root_dir),
             data_validation_status_file = temp_config.data_validation_status_file,
             data_validation_required_file = temp_config.data_validation_required_file,
-            data_path = temp_config.unzip_dir
+            data_path = temp_config.data_path
         )
 
         return data_validation_config
