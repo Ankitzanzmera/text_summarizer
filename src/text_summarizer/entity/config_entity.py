@@ -14,3 +14,9 @@ class DataValidationConfig:
     data_validation_status_file: str
     data_validation_required_file: list
     data_path:Path
+
+@dataclass(frozen=True)
+class DataTransformationConfig:
+    root_dir:Path
+    tokenizer_name:str
+    data_path: Path
